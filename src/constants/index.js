@@ -383,4 +383,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects  };
