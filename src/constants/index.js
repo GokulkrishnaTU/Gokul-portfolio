@@ -26,6 +26,8 @@ import {
 idendt,
 apro,
 media,
+vm,
+ev,
 
 } from "../assets";
 
@@ -124,7 +126,7 @@ const experiences = [
     company_name: "MEDIACROW Digital marketing and SEO Agency ",
     icon: media,
     iconBg: "#383E56",
-    date: "March 2020 - Feb 2022 (2 YEARS)",
+    date: "Dec 2019 - Dec 2021 (2 YEARS)",
     points: [
       "SMM, SEO, CONTENT MANAGEMENT",
       "website designing in word press, keyword research for SEO",
@@ -137,7 +139,7 @@ const experiences = [
     company_name: "APRO- IT SOLUTION, Chalakudy Thrissur",
     icon: apro,
     iconBg: "#E6DEDD",
-    date: " May - October/2022",
+    date: " Jan 2022 - October/2022",
     points: [
       "MERN stack development",
       "Self-learning platform where weekly Tasks are assigned (Industry experts assign and review our projects",
@@ -163,41 +165,28 @@ const experiences = [
     company_name: "Idendt",
     icon: idendt,
     iconBg: "#E6DEDD",
-    date: " April /2023 - Present",
+    date: " April /2023 - Mar/2024 ",
     points: [
       "Developing creative websites using React.js and HTML CSS ",
       "Mainly working in UI Development and learning new Technologies like Next js",
       "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
+  {
+    title: "Full stack Developer",
+    company_name: "Virtual Minds Trading LLC",
+    icon: vm,
+    iconBg: "#E6DEDD",
+    date: " Mar/2023 - Present",
+    points: [
+      "Fullstack Developer in MERN Stack ",
+      "Mainly working in UI Development and Admin Panel for E-commerce Services",
+      "Implementing responsive design and ensuring cross-browser compatibility. and Optimization for performance",
+    ],
+  },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+
 
 const projects = [
   {
@@ -276,7 +265,7 @@ const projects = [
       },
     ],
     image: sm,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GokulkrishnaTU/Social-media",
   },
 
   {
@@ -336,7 +325,7 @@ const projects = [
       },
     ],
     image: next,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GokulkrishnaTU/E-commerce-Nextjs",
   },
   {
     name: "idenDT Projects",
@@ -345,6 +334,8 @@ const projects = [
       "Developing creative websites using React.js and HTML CSS ",
       "Mainly working in UI Development and learing new Techologies like Next js",
       "Implementing responsive design and ensuring cross-browser compatibility.",
+
+      
     ],    tags: [
       {
         name: "nextjs",
@@ -362,6 +353,34 @@ const projects = [
     image: id,
     source_code_link: "https://github.com/",
   },
+
+
+  {
+    name: "Vitual Mind Projects",
+    description:
+    [
+      "working on a e-commerce app E-vouchr project in MERN Stack",
+      "Mainly working in UI Development and and Optimization part of the Main Project",
+      "Focused in the UI Development and Optimization part of the admin Panel with Role Based Admin Features and complex data calculations",
+
+      
+    ],    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ev,
+    source_code_link: "https://www.evouchr.com",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

@@ -26,12 +26,14 @@ import woxro from "./company/woxro.jpg";
 import idendt from "./company/idendt.png";
 import apro from "./company/apro.jpg";
 import media from "./company/mediacrow.png";
+import vm from "./company/vm.jpg";
 
 import ecomexpress from "./ecommerce.png";
 import netflix from "./netflix.png";
 import sm from "./socialMedia.png";
 import ck from "./clickekart.png";
 import id from "./idendt.jpeg";
+import ev from "./ev.png";
 import next from "./nextjs.png";
 
 export {
@@ -65,5 +67,7 @@ export {
   woxro,
   idendt,
   apro,
-  media
+  media,
+  vm,
+  ev
 };
